@@ -1,0 +1,39 @@
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+tr:first-of-type {
+  background-color: #1d96b2;
+  margin: 0;
+  color: white;
+}
+
+th:first-of-type {
+  text-align: left;
+}
+
+td:nth-child(2), td:nth-child(3) {
+  text-align: center;
+}
+
+td:nth-child(1n+4) {
+  text-align: right;
+}
+
+table {
+  border-collapse:collapse;
+  margin-left: 30px;
+}
+
+tr:nth-child(2n+3) {
+  background-color: #efefee;
+}
+
+tr {
+  border: 1px solid #1d96b2;
+}
+
+th, td {
+  padding: 10px 15px;
+}
